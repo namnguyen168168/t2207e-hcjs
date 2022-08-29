@@ -1,0 +1,111 @@
+.top-page{
+    background-color: white;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.34);
+    padding: 20px 0;
+}
+.top-page-left{
+    float: left;
+}
+.top-page-right{
+    float: right;
+}
+li{
+    list-style: none;
+}
+.top-page li{
+    float: left;
+}
+.top-page-left li a{
+    color: #999999;
+    margin-right: 20px;
+}
+.top-page-left li a i{
+    margin-right: 10px;
+}
+.top-page-right li a{
+    color: #999999;
+    margin-left: 20px;
+}
+.top-page-right li a i{
+    color: red;
+    margin-right: 10px;
+}
+.logo{
+    float: left;
+}
+.top-cart{
+    float: right;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    float: left;
+    margin-right: 40px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 54px;
+}
+.top-cart a{
+    margin-left: 20px;
+    font-size: 16px;
+    color: #999999;
+    line-height: 54px;
+}
+.logo a{
+    font-size: 50px;
+    color: #ff6200;
+    font-weight: 600;
+    text-shadow: -5px 3px 3px rgba(255, 98, 0, 0.78);
+}
+.header{
+    background-color: white;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.34);
+    padding: 10px 0;
+}
+.noidung{
+    margin: 100px 20px;
+    width: 400px;
+    background-color: white;
+    float: left;
+    font-size: 14px;
+    line-height: 2;
+}
+h3{
+    color: #ff6200;
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+.content{
+    width: 60%;
+    float: left;
+}
+.noidung1{
+    padding: 10px;
+}
+.sidebar{
+    width: 20%;
+    float: right;
+    color: #ff6200;
+    font-size: 30px;
+    font-family: Arial;
+    line-height: 2.5;
+    padding: 10px;
+    background-color: white;
+}
+.sidebar li i{
+    font-size: 50px;
+    color: red;
+}
+.sidebar li i:hover{
+    color: dodgerblue;
+}
+.container{
+    float: none;
+    width: 1200px;
+    margin: 0 auto;
+}
+

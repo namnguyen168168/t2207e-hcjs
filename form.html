@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Demo</title>
+    <link rel="stylesheet" href="css/form.css"/>
+</head>
+<body>
+  <form method="get" action="#">
+    <label>Full Name</label>
+    <input type="text" name="fullname" placeholder="Full name" required/>
+    <br/>
+    <label>Email</label>
+    <input type="email" name="email" placeholder="Email" required/>
+    <br/>
+    <label>Telephone</label>
+    <input type="tel" name="phone" placeholder="Phone number" required/>
+    <br/>
+    <label>Password</label>
+    <input type="password" name="pwd" placeholder="Password" required/>
+    <br/>
+    <label>Age</label>
+    <input type="number" min="1" max="100" name="age" placeholder="Age" required/>
+    <br/>
+    <label>Date of Birth</label>
+    <input type="date" name="birthday" placeholder="Date of Birth"/>
+    <br/>
+    <label>Time</label>
+    <input type="time" name="mytime" placeholder="Time"/>
+    <br/>
+    <label>Color</label>
+    <input type="color" name="mycolor" placeholder="Color"/>
+    <br/>
+    <label>Sex</label>
+    <label><input type="radio" name="sex" value="male"/>Male</label>
+    <label><input type="radio" name="sex" value="female"/>Female</label>
+    <label><input type="radio" name="sex" value="gay"/>Gay</label>
+    <br/>
+    <label><input type="checkbox" name="confirm" value="yes"/>Tôi đồng ý với các điều khoản</label>
+    </br>
+    <label>Tiểu sử</label>
+    <textarea name="description" rows="10" cols="50"></textarea>
+    </br>
+    <label>Tỉnh/Thành phố</label>
+    <select name="city">
+      <option value="hanoi">Hà Nội</option>
+      <option value="saigon">TP.Hồ Chí Minh</option>
+      <option value="haiphong">Hải Phòng</option>
+      <option value="daklac">Đắc Lắc</option>
+      <option value="cantho">Cần Thơ</option>
+    </select>
+    <button type="button">Button</button>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
