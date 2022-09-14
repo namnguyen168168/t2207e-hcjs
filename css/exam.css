@@ -238,14 +238,14 @@ input[type="submit"]:hover {
 
 .agileits-top p {
     font-size: 1em;
-    color: #fff;
+    color: #090808;
     text-align: center;
     letter-spacing: 1px;
     font-weight: 300;
 }
 
 .agileits-top p a {
-    color: #fff;
+    color: #000000;
     -webkit-transition: .5s all;
     -moz-transition: .5s all;
     transition: .5s all;
